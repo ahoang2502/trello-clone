@@ -11,6 +11,7 @@ import {
 import { cn } from "@/lib/utils";
 import { usePathname, useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
+import { Skeleton } from "@/components/ui/skeleton";
 
 export type Organization = {
 	id: string;
@@ -53,7 +54,7 @@ export default function NavItem({
 		},
 		{
 			label: "Billing",
-			icon: <Settings className="h-4 w-4 mr-2" />,
+			icon: <CreditCard className="h-4 w-4 mr-2" />,
 			href: `/organization/${organization.id}/billing`,
 		},
 	];
@@ -102,3 +103,15 @@ export default function NavItem({
 		</AccordionItem>
 	);
 }
+
+NavItem.Skeleton = function SkeletonNavItem() {
+	return (
+		<div className="flex items-center gap-x-2">
+			<div className="w-10 h-10 relative shrink-0">
+				<Skeleton className="h-full w-full absolute" />
+			</div>
+
+			<Skeleton className="h-10 w-full" />
+		</div>
+	);
+};

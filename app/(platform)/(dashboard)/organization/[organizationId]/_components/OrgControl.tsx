@@ -16,5 +16,5 @@ export default function OrgControl() {
 		});
 	}, [setActive, params.organizationId]);
 
-	return <div>OrgControl</div>;
+	return null;
 }
