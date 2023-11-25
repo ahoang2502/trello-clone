@@ -21,7 +21,7 @@ export default function DashboardNavbar() {
 					<Button
 						className="rounded-sm hidden md:block h-auto py-1.5 px-3"
 						size="sm"
-						variant="primary2"
+						variant="primaryCyan"
 					>
 						Create
 					</Button>
@@ -30,7 +30,7 @@ export default function DashboardNavbar() {
 					<Button
 						className="rounded-sm block md:hidden"
 						size="sm"
-						variant="primary2"
+						variant="primaryCyan"
 					>
 						<Plus className="h-4 w-4 " />
 					</Button>

@@ -16,8 +16,8 @@ interface FormSubmitProps {
 		| "secondary"
 		| "ghost"
 		| "link"
-		| "primary"
-		| "primary2"
+		| "primaryOrange"
+		| "primaryCyan"
 		| "sky";
 }
 

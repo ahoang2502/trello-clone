@@ -86,7 +86,7 @@ export default function FormPopover({
 						/>
 					</div>
 
-					<FormSubmit className="w-full" variant="primary2">
+					<FormSubmit className="w-full" variant="primaryCyan">
 						Create
 					</FormSubmit>
 				</form>
