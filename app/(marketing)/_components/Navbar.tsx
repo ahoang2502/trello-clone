@@ -15,7 +15,7 @@ export function Navbar() {
 						<Link href="/sign-in">Login</Link>
 					</Button>
 
-					<Button size="sm" variant="primary" asChild>
+					<Button size="sm" variant="primaryOrange" asChild>
 						<Link href="/sign-up">Get Taskify for free</Link>
 					</Button>
 				</div>
