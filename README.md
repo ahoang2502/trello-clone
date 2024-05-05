@@ -1,1 +1,1 @@
-whsec_prPnRQ5Xozpt62nUWDdhBqRdKAArN88a
+https://fishta-project-fourteen.vercel.app/
